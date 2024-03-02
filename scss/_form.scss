@@ -16,7 +16,7 @@
   &__title {
     font-weight: 700;
     font-size: 33px;
-    color: rgb(3, 1, 76);
+    color: $ttlColor;
     margin-bottom: 12px;
   }
   @include mobile {
@@ -37,7 +37,7 @@
     justify-content: space-between;
     font-weight: 600;
     font-size: 13px;
-    color: #03014c;
+    color: $ttlColor;
   }
 
   &__forgot {
@@ -45,7 +45,7 @@
     font-size: 13px;
     color: $txtColor;
     &:hover {
-      color: rgba(3, 7, 61, 1);
+      color: #03073d;
     }
   }
 
@@ -59,6 +59,6 @@
   &__sign {
     font-weight: 400;
     font-size: 13px;
-    color: #03014c;
+    color: $ttlColor;
   }
 }
